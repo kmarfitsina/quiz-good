@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Какой ты предмет матмеха:)</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="count.js" defer></script>
+
+	</head>
+	<body onload="show_res()">
+    <div class="result-card">
+        <h1>Результат тестирования</h1>
+
+        <p class="youres" id="userGreeting"></p>
+
+        <div class="result-image">
+            <img class="imgres" id="resultImg" src="" style="width: 250px !important;">
+        </div>
+
+        <div>
+            <p class="subject" id="subject"></p>
+        </div>
+
+        <div class="result">
+            <p class="des" id="description"></p>
+        </div>
+
+        <button class="button-res" onclick="res_test()">Пройти заново</button>
+    </div>
+	</body>
+</html>

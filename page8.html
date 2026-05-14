@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <title>Какой ты предмет матмеха:)</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <script src="count.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Вопрос 7 из 7</h1>
+        <div class="question" data-question="7">
+            <img src="int.jpg" style="width: 300px !important;">
+            <p class="que">Решите интеграл:</p>
+
+            <label>
+                <input type="radio" name="q7" value="wrong1">
+                \( \ln|1 - x^2| \cdot \arcsin x + C \)
+            </label>
+
+            <label>
+                <input type="radio" name="q7" value="wrong2">
+                \( \frac{x \arcsin x}{\sqrt{1 - x^2}} + C \)
+            </label>
+
+            <label>
+                <input type="radio" name="q7" value="correct">
+                \( \frac{\arcsin x}{\sqrt{1 - x^2}} + \frac{1}{2} \ln \frac{1 - x}{1 + x} + C \)
+            </label>
+
+            <label>
+                <input type="radio" name="q7" value="wrong3">
+                \( \frac{\arctan^2 x}{2} + C \)
+            </label>
+
+            <label>
+                <input type="radio" name="q7" value="wrong4">
+                \( \sqrt{1 - x^2} \cdot \arcsin x + C \)
+            </label>
+
+            <label>
+                <input type="radio" name="q7" value="wrong5">
+                \( e^{\arcsin x} \cdot \sqrt{1 - x^2} + C \)
+            </label>
+
+        </div>
+
+        <button onclick="get_sub_for_ans('q7', 'res.html')" class="button">Тык!</button>
+        <h5>Коши в деле</h5>
+    </body>
+
+</html>
